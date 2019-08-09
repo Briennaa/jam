@@ -60,7 +60,7 @@ public class ScoreDisplay : MonoBehaviour
 
     void determineSpawnTimer()
     {
-        float hi = SpawnTimer.getSpawnTimer() - 0.01f;
+        float hi = SpawnTimer.getSpawnTimer() - 0.03f;
         SpawnTimer.setSpawnTimer(hi);
         Debug.Log(SpawnTimer.getSpawnTimer());      
     }

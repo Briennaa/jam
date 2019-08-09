@@ -68,7 +68,7 @@ public class FuzzSpawner : MonoBehaviour
 
     void SpawnSpeedy()
     {
-        if (Pause.getPaused() == false && SpawnTimer.getSpawnTimer() < 1.97)
+        if (Pause.getPaused() == false && SpawnTimer.getSpawnTimer() < 1.90)
         {
             //they come from the bottom
             float randomX = Random.Range(-5f, 5f);

@@ -10,6 +10,7 @@ public class ButtonClicks : MonoBehaviour
     public void loadMugWorld()
     {
         SceneManager.LoadScene("MugWorld");
+        SpawnTimer.setSpawnTimer(2.0f);
         ScoreTracker.setScore(0);
         Pause.setPause(false);
     }
