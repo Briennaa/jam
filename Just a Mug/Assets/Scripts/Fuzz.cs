@@ -12,6 +12,8 @@ public class Fuzz : MonoBehaviour
     [SerializeField]
     float _moveSpeed = 5.0f;
 
+    public float taps = 2.0f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,20 @@ public class Fuzz : MonoBehaviour
             Debug.Log("HIT");
             ScoreTracker.setHighScore(ScoreTracker.getScore());
             SceneManager.LoadScene("LoserWorld");
+        }
+    }
+
+    public bool killed()
+    {
+        //returning true means the taps killed it
+        taps = taps - 1;
+        if (taps > 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
         }
     }
 

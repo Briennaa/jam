@@ -30,12 +30,15 @@ public class ScoreDisplay : MonoBehaviour
             
             if (Physics.Raycast(ray, out hit, 100.0f) && hit.transform.gameObject != null)
             {
-                ScoreTracker.increaseScore();
-                if (PlayerPrefs.GetInt("Sound") != 1)
+                if (hit.transform.gameObject.GetComponent<Fuzz>().killed())
                 {
-                    GetComponent<AudioSource>().PlayOneShot(pop);
+                    ScoreTracker.increaseScore();
+                    if (PlayerPrefs.GetInt("Sound") != 1)
+                    {
+                        GetComponent<AudioSource>().PlayOneShot(pop);
+                    }
+                    GameObject.Destroy(hit.transform.gameObject);
                 }
-                GameObject.Destroy(hit.transform.gameObject);
             }
         }
 

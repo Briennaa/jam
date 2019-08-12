@@ -619,6 +619,8 @@ MonoBehaviour:
   spawnee: {fileID: 1213717514912748518, guid: 0f62b7de68f4d1843b87687df1d9691a, type: 3}
   speedySpawnee: {fileID: 2553461051331210846, guid: 9167e4b44380af040a880070c2af24c4,
     type: 3}
+  beefySpawnee: {fileID: 5634858160611657122, guid: 505351be96995a84bbcbefe0c0b2bb4e,
+    type: 3}
 --- !u!224 &616082211
 RectTransform:
   m_ObjectHideFlags: 0

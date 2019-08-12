@@ -106,7 +106,7 @@ Transform:
   m_GameObject: {fileID: 1213717514912748518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10, y: -0.17006579, z: 0.054773122}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
   - {fileID: 1213717514520001750}
   m_Father: {fileID: 0}
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 2
+  taps: 1
 --- !u!143 &1213717514912748536
 CharacterController:
   m_ObjectHideFlags: 0
