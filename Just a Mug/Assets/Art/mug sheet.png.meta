@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,12 +130,12 @@ TextureImporter:
       name: mug sheet_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 499
-        width: 270
-        height: 496
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 269
+        height: 497
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: mug sheet_12
       rect:
         serializedVersion: 2
-        x: 550
+        x: 551
         y: 504
-        width: 270
+        width: 269
         height: 492
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: mug sheet_13
       rect:
         serializedVersion: 2
-        x: 824
+        x: 825
         y: 499
-        width: 270
+        width: 269
         height: 497
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,10 +192,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1099
         y: 499
-        width: 270
+        width: 269
         height: 497
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: mug sheet_17
       rect:
         serializedVersion: 2
-        x: 276
+        x: 277
         y: 504
-        width: 270
+        width: 269
         height: 492
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,10 +232,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1373
         y: 513
-        width: 270
+        width: 269
         height: 483
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: mug sheet_19
       rect:
         serializedVersion: 2
-        x: 1646
+        x: 1647
         y: 513
-        width: 270
+        width: 269
         height: 483
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: mug sheet_20
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 270
-        height: 497
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 1
+        width: 269
+        height: 496
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,10 +292,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1468
         y: 6
-        width: 270
+        width: 269
         height: 490
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,7 +312,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1154
         y: 27
-        width: 311
+        width: 309
         height: 469
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -330,12 +330,12 @@ TextureImporter:
       name: mug sheet_42
       rect:
         serializedVersion: 2
-        x: 276
+        x: 277
         y: 6
-        width: 270
+        width: 269
         height: 491
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
