@@ -21,6 +21,7 @@ public class Fuzz : MonoBehaviour
         _controller = GetComponent<CharacterController>();
         Mug = GameObject.FindWithTag("Mug");
         target = Mug.transform;
+        Physics.IgnoreLayerCollision(0, 0);
     }
 
     // Update is called once per frame
