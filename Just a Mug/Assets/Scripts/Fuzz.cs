@@ -8,6 +8,7 @@ public class Fuzz : MonoBehaviour
     Transform target;
     GameObject Mug;
     CharacterController _controller;
+    public Sprite damaged;
 
     [SerializeField]
     float _moveSpeed = 5.0f;
@@ -56,6 +57,17 @@ public class Fuzz : MonoBehaviour
         }
         else
         {
+            GameObject SpriteObj = new GameObject();
+            foreach (Transform child in transform)
+            {
+                if (child.tag == "sprite")
+                {
+                    Debug.Log("found him");
+                    SpriteObj = child.gameObject;
+                }
+            }
+            SpriteObj.GetComponent<SpriteRenderer>().sprite = damaged;
+            //spriteRenderer.sprite = damaged;
             return true;
         }
     }

@@ -2,16 +2,16 @@ fileFormatVersion: 2
 guid: 2286eac6ac834e14a9ff939221dc6088
 TextureImporter:
   fileIDToRecycleName:
-    21300000: mug sheet_0
+    21300000: 3
     21300002: mug sheet_1
-    21300004: mug sheet_12
-    21300006: mug sheet_13
+    21300004: 5
+    21300006: 2
     21300008: mug sheet_14
     21300010: mug sheet_15
-    21300012: mug sheet_17
-    21300014: mug sheet_18
-    21300016: mug sheet_19
-    21300018: mug sheet_20
+    21300012: 4
+    21300014: 8
+    21300016: 6
+    21300018: 9
     21300020: mug sheet_22
     21300022: mug sheet_34
     21300024: mug sheet_35
@@ -20,7 +20,7 @@ TextureImporter:
     21300030: mug sheet_38
     21300032: mug sheet_39
     21300034: alarm_front
-    21300036: mug sheet_42
+    21300036: 1
     21300038: alarm_left
     21300040: alarm_right
   externalObjects: {}
@@ -127,15 +127,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mug sheet_0
+      name: 3
       rect:
         serializedVersion: 2
         x: 3
         y: 499
         width: 269
         height: 497
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,15 +147,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_12
+      name: 5
       rect:
         serializedVersion: 2
         x: 551
         y: 504
         width: 269
         height: 492
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,15 +167,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_13
+      name: 2
       rect:
         serializedVersion: 2
         x: 825
         y: 499
         width: 269
         height: 497
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,8 +194,8 @@ TextureImporter:
         y: 499
         width: 269
         height: 497
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,15 +207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_17
+      name: 4
       rect:
         serializedVersion: 2
         x: 277
         y: 504
         width: 269
         height: 492
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,15 +227,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_18
+      name: 8
       rect:
         serializedVersion: 2
         x: 1373
         y: 513
         width: 269
         height: 483
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,15 +247,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_19
+      name: 6
       rect:
         serializedVersion: 2
         x: 1647
         y: 513
         width: 269
         height: 483
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,15 +267,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_20
+      name: 9
       rect:
         serializedVersion: 2
         x: 3
         y: 1
         width: 269
         height: 496
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,8 +294,8 @@ TextureImporter:
         y: 6
         width: 269
         height: 490
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: alarm_front
       rect:
         serializedVersion: 2
-        x: 1154
+        x: 1159
         y: 27
-        width: 309
+        width: 304
         height: 469
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,15 +327,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mug sheet_42
+      name: 1
       rect:
         serializedVersion: 2
         x: 277
         y: 6
         width: 269
         height: 491
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: alarm_left
       rect:
         serializedVersion: 2
-        x: 546
+        x: 548
         y: 9
-        width: 322
+        width: 321
         height: 488
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: alarm_right
       rect:
         serializedVersion: 2
-        x: 870
+        x: 873
         y: 1
-        width: 284
+        width: 283
         height: 495
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

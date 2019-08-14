@@ -8,6 +8,8 @@ TagManager:
   - Fuzz
   - PauseMenu
   - music
+  - scaredZone
+  - sprite
   layers:
   - Default
   - TransparentFX
