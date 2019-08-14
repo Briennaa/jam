@@ -8,7 +8,9 @@ public class Fuzz : MonoBehaviour
     Transform target;
     GameObject Mug;
     CharacterController _controller;
-    public Sprite damaged;
+    GameObject dam;
+    //public GameObject prefab;
+    //public string prefabName = "BeefyFuzz";
 
     [SerializeField]
     float _moveSpeed = 5.0f;
@@ -19,6 +21,19 @@ public class Fuzz : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        //prefab = (GameObject)Resources.Load(prefabName);
+        //Debug.Log(prefab);
+
+        //dam = new GameObject();
+        //foreach (Transform child in prefab.transform)
+        //{
+         ///   if (child.tag == tag)
+         //   {
+        //        dam = child.gameObject;
+         //       dam.SetActive(false);
+         //   }
+        //}
         _controller = GetComponent<CharacterController>();
         Mug = GameObject.FindWithTag("Mug");
         target = Mug.transform;
@@ -57,19 +72,13 @@ public class Fuzz : MonoBehaviour
         }
         else
         {
-            GameObject SpriteObj = new GameObject();
-            foreach (Transform child in transform)
-            {
-                if (child.tag == "sprite")
-                {
-                    Debug.Log("found him");
-                    SpriteObj = child.gameObject;
-                }
-            }
-            SpriteObj.GetComponent<SpriteRenderer>().sprite = damaged;
-            //spriteRenderer.sprite = damaged;
+            //changeClothes("damage"+taps);
             return true;
         }
     }
 
+    void changeClothes(string tag)
+    {
+     //  dam.SetActive(true);
+    }
 }

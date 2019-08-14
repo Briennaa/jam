@@ -7,9 +7,6 @@ using UnityEngine.UI;
 public class MugController : MonoBehaviour
 {
     GameObject mugSpriteObj;
-    SpriteRenderer spriteRenderer;
-    public Sprite scaredSprite;
-    public Sprite defaultSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +16,8 @@ public class MugController : MonoBehaviour
             if (child.tag == "scaredZone")
             {
                 child.gameObject.SetActive(false);
-                //mugSpriteObj = child.gameObject;
             }
         }
-        //spriteRenderer = mugSpriteObj.GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -38,13 +33,11 @@ public class MugController : MonoBehaviour
             if (Vector3.Distance(transform.position, obj.transform.position) < 2)
             {
                 found = true;
-                //spriteRenderer.sprite = scaredSprite;
                 foreach (Transform child in transform)
                 {
                     if (child.tag == "scaredZone")
                     {
                         child.gameObject.SetActive(true);
-                        //mugSpriteObj = child.gameObject;
                     }
                     else
                     {
@@ -60,7 +53,6 @@ public class MugController : MonoBehaviour
                 if (child.tag == "scaredZone")
                 {
                     child.gameObject.SetActive(false);
-                    //mugSpriteObj = child.gameObject;
                 }
                 else
                 {
