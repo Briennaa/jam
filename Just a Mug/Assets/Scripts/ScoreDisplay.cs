@@ -10,6 +10,7 @@ public class ScoreDisplay : MonoBehaviour
     private int score;
     public AudioClip pop;
     private int highScore;
+    public AudioSource nonKillPop;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,13 @@ public class ScoreDisplay : MonoBehaviour
                         GetComponent<AudioSource>().PlayOneShot(pop);
                     }
                     GameObject.Destroy(hit.transform.gameObject);
+                }
+                else
+                {
+                    if (PlayerPrefs.GetInt("Sound") != 1)
+                    {
+                        nonKillPop.Play();
+                    }
                 }
             }
         }
