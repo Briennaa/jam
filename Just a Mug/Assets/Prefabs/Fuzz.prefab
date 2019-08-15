@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e3be3580f6dfed42b1d4b911b76e562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damaged: {fileID: 21300000, guid: f08dfd97bdd0eb24dbedff5e9c4d3181, type: 3}
+  dam: {fileID: 4137917699271935133, guid: d96a565c44daab24593cd20554be4bf1, type: 3}
   _moveSpeed: 2
   taps: 1
 --- !u!143 &1213717514912748536
